@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+        <script type="text/javascript" src="plug/jquery-3.4.1.min.js"></script>
+        <script type="text/javascript" src="plug/jquery.bsPhotoGallery.css"></script>
+        <link rel="stylesheet" href="plug/jquery.bsPhotoGallery.css">
+        <link rel="stylesheet" href="plug/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <title>Dandy</title>
+    </head>
+
+
+    <body>
+        <div class="container">
+            <h1>Markus Dandy</h1>
+            <ul>
+                <li><a href></a></li>
+            </ul>
+        </div>
+        <div class="container">
+            <div class="row">
+                <ul style="background-color: #fff">
+                    <li class="col-lg-2">
+                        <img src="uploaded/behance_tripleecho/P1010935.JPG" width="45%"> </li>
+                    <li class="col-lg-2">
+                        <img src="uploaded/behance_tripleecho/P1010946.JPG" width="45%">
+                    </li>
+                    <li class="col-sm-4"><img src="uploaded/behance_edit/19182158_10206851358562302_140491681_o.jpg" width="30%%">
+                    </li>
+                    <li class="col-sm-3"><img src="uploaded/behance_edit/squadbats1.jpg" width="25%"> </li>
+                    <li class="col-sm-3"><img src="uploaded/behance_silkroad/Capture%20d%E2%80%99%C3%A9cran%202018-01-29%20%C3%A0%2016.41.19.png" width="25%">
+                    </li>
+                    <li class="col-sm-3">
+                    <img src="uploaded/golden_trash/wam.png" width="25%">
+                    </li>
+                    <li class="col-md-3">
+                        <img src="uploaded/behance_buff/Capture%20d%E2%80%99%C3%A9cran%202018-08-18%20%C3%A0%2012.46.57.png" width="25%">
+                    </li>
+                    <li class="col-md-4">
+                        <img src="uploaded/behance_buff/Capture%20d%E2%80%99%C3%A9cran%202018-08-18%20%C3%A0%2012.47.12.png" width="30.2%">
+                    </li>
+                    <li class="col-md-4">
+                        <img src="uploaded/behance_buff/P7160241.jpg" width="26.7%">
+                    </li>
+                    <li class="col-lg-12">
+                        <img src="uploaded/behance_buff/P7160270.jpg" width="100%">
+                    </li>
+                    <li class="col-md-6">
+                        <img src="uploaded/behance_buff/P7160245.jpg" width="40%"></li>
+                    <li class="col-md-6">
+                        <img src="uploaded/behance_buff/P7160255.jpg" width="40%">
+                    </li>
+                </ul>
+                <script type="text/javascript">
+                    $(document).ready(function(){
+                        $('ul.first').bsPhotoGallery({
+                            "classes" : "col-lg-2 col-md-4 col-sm-3 col-xs-4 col-xxs-12",
+                            "hasModal" : true
+                        });
+                    });
+                    opts = {
+                        "classes" : "col-lg-2 col-md-4 col-sm-3 col-xs-12",
+                        "hasModal" : false
+                    }
+                    $('ul.first').bsPhotoGallery(opts);
+                </script>
+            </div>
+
+        </div>
+
+    </body>
+</html>
