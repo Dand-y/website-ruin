@@ -13,7 +13,6 @@
 }
 
 .overlay {
-    position: fixed;
     background-color: #ffffff;
     top: 0;
     left: 0;
@@ -72,6 +71,9 @@ ul li a:hover{
     text-align: left;
     }
 
+    .overlay {
+    background-color: #ea242c;
+    }
 
 .column column-25{
     display:inline;
@@ -80,6 +82,8 @@ ul li a:hover{
     margin:0; 
     }
 }
+
+
 
 
 /* image pop-up on hover */
