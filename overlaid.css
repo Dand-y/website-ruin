@@ -9,7 +9,7 @@
     height: 20px;
     width: 35px;
     z-index: 1000;
-    color: #ffffff;
+    color: #ea242c;
 }
 
 .overlay {
@@ -54,7 +54,7 @@
 }
 
 ul li a:hover{
-    color: white;
+    color: #ea242c;
     text-decoration: none;
 }
 
@@ -69,10 +69,6 @@ ul li a:hover{
 .overlay ul {
     font-size: 1.5em;
     text-align: left;
-    }
-
-    .overlay {
-    background-color: #ea242c;
     }
 
 .column column-25{
