@@ -9,7 +9,8 @@
     height: 20px;
     width: 35px;
     z-index: 1000;
-    color: #ea242c;
+    color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;;
 }
 
 .overlay {
@@ -49,7 +50,8 @@
 }
 
 .overlay ul li a:hover{
-    color: white;
+    color: #000;
+  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
     text-decoration: none;
 }
 
