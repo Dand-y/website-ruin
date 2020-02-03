@@ -9,7 +9,7 @@
     height: 20px;
     width: 35px;
     z-index: 1000;
-    color: blue;
+    color: #ffffff;
 }
 
 .overlay {
@@ -60,7 +60,7 @@ ul li a:hover{
 
 .toggle-click:hover{
     text-decoration: none;
-    color: red;
+    color: #ea242c;
 }
 
 
