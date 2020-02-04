@@ -63,6 +63,7 @@ ul li a:hover{
 .toggle-click:hover{
     text-decoration: none;
     color: #000000;
+    cursor: pointer; 
 }
 
 
