@@ -167,6 +167,9 @@ transition:all 0.5s ease-in;
         text-align:right;
         padding-top: 30px;
 }
+    .toggle-click{
+        display:inline;
+    }
 }
 
 /* ==========================================================================
