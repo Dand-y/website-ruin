@@ -19,8 +19,8 @@ html {
     font-family: "bespoke", sans-serif;
 }
 
-h1{
-    padding-top: 8px;
+h3{
+    padding-top: 10px;
     color: #ffffff;
 }
 
@@ -61,6 +61,29 @@ footer {
      font-size:0.8em;
     color:#363636;
 }
+.texte{
+    padding: 120px;
+    font-size: 1.5em;
+    font-family: sans-serif;
+    text-align: justify;
+    text-justify: inter-word;
+    font-weight: 300;
+
+}
+
+.texte img {
+    display:none;
+    text-decoration: none;
+    width: 50px;
+}
+
+.link:hover  img{ 
+    display:block;
+    position: absolute;
+    text-decoration: none;
+    
+}
+
 
 
 
